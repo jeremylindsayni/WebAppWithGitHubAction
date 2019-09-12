@@ -16,4 +16,4 @@ jobs:
         dotnet-version: 2.2.108
 
     - name: Test variables
-      run: echo %GITHUB_WORKSPACE%
+      run: echo "ls c:\"
