@@ -10,8 +10,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Setup .NET Core
-      run: ./.github/scripts/decrypt_secret.sh
-      uses: actions/setup-dotnet@v1
+      run: ./.github/workflows/webdriver.bat
+      
+    - uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 2.2.108
     - name: Build with dotnet
