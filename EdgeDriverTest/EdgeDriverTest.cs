@@ -10,8 +10,6 @@ namespace FireFoxDriverTest
         [TestMethod]
         public void TestWithChromeDriver()
         {
-            Assert.AreEqual(2, Directory.GetFiles(@"C:\SeleniumWebDrivers\ChromeDriver\").Length);
-
             using (var driver = new ChromeDriver(@"C:\SeleniumWebDrivers\ChromeDriver\"))
             {
                 driver.Navigate().GoToUrl(@"https://www.bing.com");
