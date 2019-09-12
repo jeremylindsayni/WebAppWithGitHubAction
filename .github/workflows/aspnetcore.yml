@@ -17,6 +17,6 @@ jobs:
 
     - name: Test variables
       run: |
-        echo "ls c:\SeleniumWebDrivers"
-        ls c:\SeleniumWebDrivers
+        echo "ls c:\SeleniumWebDrivers\ChromeDriver"
+        ls c:\SeleniumWebDrivers\ChromeDriver
         
