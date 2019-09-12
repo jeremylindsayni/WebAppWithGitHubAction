@@ -20,3 +20,9 @@ jobs:
         echo "ls c:\SeleniumWebDrivers\ChromeDriver"
         ls c:\SeleniumWebDrivers\ChromeDriver
         
+    - name: Build with dotnet
+      run: dotnet build
+      
+    - name: Test with dotnet
+      run: dotnet test
+        
