@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSUnitTestProject", "MSUnitTestProject\MSUnitTestProject.csproj", "{5CB19BF8-DAF4-4109-B7A2-14F886941137}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject", "NUnitTestProject\NUnitTestProject.csproj", "{38FB06D0-F304-4AED-BA6B-F8985073190A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdgeDriverTest", "EdgeDriverTest\EdgeDriverTest.csproj", "{C0E05FE2-7A11-45B6-8A02-2AB4A10667FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppWithGitHubAction", "WebAppWithGitHubAction\WebAppWithGitHubAction.csproj", "{A6CF8B97-EA84-4F84-BBD3-F2BAA367BA04}"
@@ -23,10 +21,6 @@ Global
 		{5CB19BF8-DAF4-4109-B7A2-14F886941137}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CB19BF8-DAF4-4109-B7A2-14F886941137}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CB19BF8-DAF4-4109-B7A2-14F886941137}.Release|Any CPU.Build.0 = Release|Any CPU
-		{38FB06D0-F304-4AED-BA6B-F8985073190A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38FB06D0-F304-4AED-BA6B-F8985073190A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38FB06D0-F304-4AED-BA6B-F8985073190A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38FB06D0-F304-4AED-BA6B-F8985073190A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0E05FE2-7A11-45B6-8A02-2AB4A10667FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0E05FE2-7A11-45B6-8A02-2AB4A10667FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0E05FE2-7A11-45B6-8A02-2AB4A10667FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
