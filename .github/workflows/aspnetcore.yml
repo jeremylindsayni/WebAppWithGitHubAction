@@ -17,8 +17,8 @@ jobs:
 
     - name: Test variables
       run: |
-        echo "ls c:\SeleniumWebDrivers\ChromeDriver"
-        ls c:\SeleniumWebDrivers\ChromeDriver
+        echo "ls c:\"
+        ls c:\
         
     - name: Build with dotnet
       run: dotnet build
