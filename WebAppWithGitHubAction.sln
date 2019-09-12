@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSUnitTestProject", "MSUnitTestProject\MSUnitTestProject.csproj", "{5CB19BF8-DAF4-4109-B7A2-14F886941137}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppWithGitHubAction", "WebAppWithGitHubAction\WebAppWithGitHubAction.csproj", "{A6CF8B97-EA84-4F84-BBD3-F2BAA367BA04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppWithGitHubAction", "WebAppWithGitHubAction\WebAppWithGitHubAction.csproj", "{A6CF8B97-EA84-4F84-BBD3-F2BAA367BA04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{B212D3D0-AFDF-4C5B-8C43-CF4EAF48A91C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{B212D3D0-AFDF-4C5B-8C43-CF4EAF48A91C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject", "NUnitTestProject\NUnitTestProject.csproj", "{E556A888-0765-4B5C-8A3E-A0738E4FF7F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeDriverTest", "EdgeDriverTest\EdgeDriverTest.csproj", "{5FD5108F-2DA3-4627-A113-B77FA52A1722}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E556A888-0765-4B5C-8A3E-A0738E4FF7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E556A888-0765-4B5C-8A3E-A0738E4FF7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E556A888-0765-4B5C-8A3E-A0738E4FF7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD5108F-2DA3-4627-A113-B77FA52A1722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD5108F-2DA3-4627-A113-B77FA52A1722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD5108F-2DA3-4627-A113-B77FA52A1722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD5108F-2DA3-4627-A113-B77FA52A1722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
