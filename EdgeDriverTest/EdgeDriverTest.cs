@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium.Chrome;
+using System.IO;
 
 namespace FireFoxDriverTest
 {
@@ -9,7 +10,9 @@ namespace FireFoxDriverTest
         [TestMethod]
         public void TestWithChromeDriver()
         {
-            using (var driver = new ChromeDriver())
+            Assert.AreEqual(2, Directory.GetFiles(@"C:\SeleniumWebDrivers\ChromeDriver\").Length);
+
+            using (var driver = new ChromeDriver(@"C:\SeleniumWebDrivers\ChromeDriver\"))
             {
                 driver.Navigate().GoToUrl(@"https://www.bing.com");
 
